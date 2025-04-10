@@ -154,6 +154,7 @@ h1 span:hover {
         position: absolute;
         top: 115vh;
         left: 10vw;
+        color: rgb(3, 21, 218); 
     }
     
     /* No Underline: Dr. Maria-Carolina Cambre */
@@ -256,6 +257,7 @@ h1 span:hover {
         position: absolute;
         top: 70vh;
         left: 0vw;
+        color: rgb(3, 21, 218); 
     }
 
     .introduction2{
@@ -355,6 +357,7 @@ h1 span:hover {
         position: absolute;
         top: 105vh;
         left: 0vw;
+        color: rgb(3, 21, 218); 
     }
 
     .introduction3{
@@ -454,6 +457,7 @@ h1 span:hover {
         position: absolute;
         top: 85vh;
         left: 0vw;
+        color: rgb(3, 21, 218); 
     }
 
     .introduction4{
