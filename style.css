@@ -143,7 +143,7 @@ h1 span:hover {
     
     .hover-link2:hover {
         transform: translateX(8px); /* Moves text right */
-        color: rgb(128, 137, 240); /* Changes color */
+        color: rgb(128, 137, 240); /* Changes colour */
     }
 
 
@@ -209,6 +209,7 @@ h1 span:hover {
         transition: color 0.3s ease-in-out;
     }
 
+    /* Lecture */
     #title3{
         line-height: 5vh;
     }
@@ -309,6 +310,7 @@ h1 span:hover {
             transition: color 0.3s ease-in-out;
         }
     
+        /* Lecture */
         #title6{
             line-height: 5vh;
         }
@@ -407,6 +409,7 @@ h1 span:hover {
             transition: color 0.3s ease-in-out;
         }
     
+        /* Lecture */
         #title9{
             line-height: 5vh;
         }
@@ -505,6 +508,7 @@ h1 span:hover {
             transition: color 0.3s ease-in-out;
         }
     
+        /* Lecture */
         #title12{
             line-height: 5vh;
             width: 30vw;
@@ -542,7 +546,7 @@ h1 span:hover {
             transform: translateY(0);
         }
     
-        /*circle on the top style*/
+        /*circle on the top style, animation*/
           .circle {
             position: absolute;
             top: -255vh;
@@ -578,7 +582,8 @@ h1 span:hover {
             transition: opacity 0.5s ease-in-out;
           }
           
-          .circle:hover {
+          /* rotation animation */
+          .circle:hover { 
             transform: rotate(360deg);
             top: 10px;
           }
