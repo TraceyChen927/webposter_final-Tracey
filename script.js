@@ -155,6 +155,7 @@ function(){
 }
 )
 
+/* big circle on the top, with animation to lead people look and scroll down*/
 const circle = document.getElementById('circle');
 const content = document.getElementById('content');
 
