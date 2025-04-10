@@ -1,0 +1,593 @@
+
+/* purple background of title */
+.rectangle1{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(225, 228, 255);
+    z-index: -1;
+}
+
+/* white background of guests information */
+.rectangle2{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+    z-index: -1;
+}
+
+/* 1st grey background of guests information */
+.rectangle3{
+    position: absolute;
+    top: 180vh;
+    left: 0;
+    width: 100%;
+    height: 105vh;
+    background-color: ghostwhite;
+    z-index: -1;
+}
+
+/* 2nd grey background of guests information */
+.rectangle4{
+    position: absolute;
+    top: 370vh;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    background-color: ghostwhite;
+    z-index: -1;
+}
+
+
+/*.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.word{
+    display: flex;
+}
+
+.word span{
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 12vw;
+    transition: 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-origin: bottom;
+    color: rgb(3, 21, 218);
+}*/
+
+
+/* Title: Beyond Bias */
+h1 { 
+    position: absolute;
+    top: 40vh;
+    left: 2vw;
+    font-size: 20vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(3, 21, 218);
+    text-transform: uppercase;
+}
+
+/* Stretch title effect */
+h1 span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+h1 span:hover {
+    transform: scaleY(1.8);
+}
+
+.hover-link1{ /* Text style: Building Inclusive Global Creative Collaboration */
+        position: absolute;
+        top: 18vh;
+        left: 10vw;
+        display: flex;
+        justify-content: left;
+        align-items:center;
+        height: 40vh;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .hover-link1 { 
+        font-size: 50px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: rgb(3, 21, 218); /* original colour */
+        display: inline-block;
+        position: absolute;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .hover-link1:hover {
+        transform: translateY(-8px); /* moves text up */
+        color: rgb(128, 137, 240); /* Changes colour */
+    }
+
+    /* Text style: International Lecture Series */
+    .hover-link2{ 
+        position: absolute;
+        top: 60vh;
+        right: 9vw;
+        display: flex;
+        justify-content: left;
+        align-items:center;
+        height: 40vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .hover-link2 {
+        font-size: 30px;
+        font-weight: light;
+        text-decoration: none;
+        color: rgb(3, 21, 218); /* original colour */
+        display: inline-block;
+        position: absolute;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .hover-link2:hover {
+        transform: translateX(8px); /* Moves text right */
+        color: rgb(128, 137, 240); /* Changes color */
+    }
+
+
+    /* Dr. Maria-Carolina Cambre */
+    .container1 { 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px;
+        position: absolute;
+        top: 115vh;
+        left: 10vw;
+    }
+    
+    /* No Underline: Dr. Maria-Carolina Cambre */
+.introduction1{
+    text-decoration: none;
+}
+
+    .hover-target1 {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(3, 21, 218); /* original colour */
+    }
+    
+
+
+    .hover-target1::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 2px;
+        background-color:  rgb(3, 21, 218); /* original colour */
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s ease-out;
+    }
+    
+    .hover-target1:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .hover-item1 {
+        position: relative;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: light;
+        line-height: 8vh;
+        width: 30vw;
+        cursor: pointer;
+        color: rgb(3, 21, 218); /* original colour */
+        transition: color 0.3s ease-in-out;
+    }
+
+    #title3{
+        line-height: 5vh;
+    }
+    
+    .hover-item1:hover {
+        color: rgb(128, 137, 240); /* Changes colour */
+    }
+    
+  
+
+    .data-info{
+        position: absolute;
+        top: 115vh;
+        left: 50vw;
+        color: rgb(128, 137, 240);
+    }
+
+    
+    .paragraphy1{ 
+        position: absolute;
+        top: 10vh;
+        left:43vw;
+        width:65vh;
+        opacity: 0;
+        color: rgb(128, 137, 240);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 22px;
+        font-weight: lighter;
+        line-height: 4vh;
+        transform: translateX(0) translateY(6vh);
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+    
+    .paragraphy1.show{
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+
+    /* Dr. Isabel Machado */
+    .container2 { 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px;
+        position: absolute;
+        top: 70vh;
+        left: 0vw;
+    }
+
+    .introduction2{
+        text-decoration: none;
+    }
+    
+        .hover-target2 {
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(3, 21, 218); /* original colour */
+        }
+        
+    
+    
+        .hover-target2::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            height: 2px;
+            background-color:  rgb(3, 21, 218); /* original colour */
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease-out;
+        }
+        
+        .hover-target2:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .hover-item2 {
+            position: relative;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: light;
+            line-height: 8vh;
+            width: 30vw;
+            cursor: pointer;
+            color: rgb(3, 21, 218); /* original colour */
+            transition: color 0.3s ease-in-out;
+        }
+    
+        #title6{
+            line-height: 5vh;
+        }
+        
+        .hover-item2:hover {
+            color: rgb(128, 137, 240); /* Changes colour */
+        }
+        
+    
+        .data-info{
+            position: absolute;
+            top: 115vh;
+            left: 50vw;
+            color: rgb(128, 137, 240);
+        }
+    
+        .paragraphy2{ 
+            position: absolute;
+            top: 10vh;
+            left:43vw;
+            width:65vh;
+            opacity: 0;
+            color: rgb(128, 137, 240);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            font-weight: lighter;
+            line-height: 4vh;
+            transform: translateX(0) translateY(6vh);
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        }
+        
+        .paragraphy2.show{
+            opacity: 0;
+            transform: translateY(0);
+        }
+    
+    
+        /* Daniel Wildberger */
+    .container3 { 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px;
+        position: absolute;
+        top: 105vh;
+        left: 0vw;
+    }
+
+    .introduction3{
+        text-decoration: none;
+    }
+    
+        .hover-target3 {
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(3, 21, 218); /* original colour */
+        }
+        
+    
+    
+        .hover-target3::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            height: 2px;
+            background-color:  rgb(3, 21, 218); /* original colour */
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease-out;
+        }
+        
+        .hover-target3:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .hover-item3 {
+            position: relative;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: light;
+            line-height: 8vh;
+            width: 30vw;
+            cursor: pointer;
+            color: rgb(3, 21, 218); /* original colour */
+            transition: color 0.3s ease-in-out;
+        }
+    
+        #title9{
+            line-height: 5vh;
+        }
+        
+        .hover-item3:hover {
+            color: rgb(128, 137, 240); /* Changes colour */
+        }
+        
+    
+        .data-info{
+            position: absolute;
+            top: 115vh;
+            left: 50vw;
+            color: rgb(128, 137, 240);
+        }
+    
+        .paragraphy3{ 
+            position: absolute;
+            top: 10vh;
+            left:43vw;
+            width:65vh;
+            opacity: 0;
+            color: rgb(128, 137, 240);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            font-weight: lighter;
+            line-height: 4vh;
+            transform: translateX(0) translateY(6vh);
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        }
+        
+        .paragraphy3.show{
+            opacity: 0;
+            transform: translateY(0);
+        }
+
+
+        /* Dr. Shima Rezaei Rashnoodi */
+    .container4 { 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px;
+        position: absolute;
+        top: 85vh;
+        left: 0vw;
+    }
+
+    .introduction4{
+        text-decoration: none;
+    }
+    
+        .hover-target4 {
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(3, 21, 218); /* original colour */
+        }
+        
+    
+    
+        .hover-target4::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            height: 2px;
+            background-color:  rgb(3, 21, 218); /* original colour */
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease-out;
+        }
+        
+        .hover-target4:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .hover-item4 {
+            position: relative;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: light;
+            line-height: 8vh;
+            width: 34vw;
+            cursor: pointer;
+            color: rgb(3, 21, 218); /* original colour */
+            transition: color 0.3s ease-in-out;
+        }
+    
+        #title12{
+            line-height: 5vh;
+            width: 30vw;
+        }
+        
+        .hover-item4:hover {
+            color: rgb(128, 137, 240); /* Changes colour */
+        }
+        
+    
+        .data-info{
+            position: absolute;
+            top: 115vh;
+            left: 50vw;
+            color: rgb(128, 137, 240);
+        }
+    
+        .paragraphy4{ 
+            position: absolute;
+            top: 10vh;
+            left:43vw;
+            width:65vh;
+            opacity: 0;
+            color: rgb(128, 137, 240);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            font-weight: lighter;
+            line-height: 4vh;
+            transform: translateX(0) translateY(6vh);
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        }
+        
+        .paragraphy4.show{
+            opacity: 0;
+            transform: translateY(0);
+        }
+    
+        /*circle on the top style*/
+          .circle {
+            position: absolute;
+            top: -255vh;
+            left: 20vw;
+            width: 70vw;
+            height: 120vh;
+            background-color: rgb(3, 21, 218);
+            border-radius: 60%;
+            cursor: pointer;
+            transition: transform 1s ease, top 1s ease;
+            margin-bottom: 20px;
+            z-index: 2;
+            animation: shine 2s infinite ease-in-out;
+          }
+
+
+          /* circle shining colour animation */
+          @keyframes shine {
+            0% {
+              box-shadow: 0 0 5px white, 0 0 50px rgb(3, 21, 218), 0 0 30px white;
+            }
+            60% {
+              box-shadow: 0 0 20px white, 0 0 60px rgb(3, 21, 218), 0 0 50px white;
+            }
+            100% {
+              box-shadow: 0 0 5px white, 0 0 45px rgb(3, 21, 218), 0 0 25px white;
+            }
+          }
+          
+          .content {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+          }
+          
+          .circle:hover {
+            transform: rotate(360deg);
+            top: 10px;
+          }
+          
+          .circle:active {
+            top: 10px;
+          }
+          
+          .circle:hover + .content {
+            display: block;
+            opacity: 1;
+          }
