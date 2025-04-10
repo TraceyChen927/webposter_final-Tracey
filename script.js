@@ -1,3 +1,5 @@
+
+/* Title stretch */
 document.addEventListener("DOMContentLoaded", function ()
  {
     let title = document.getElementById("title");
@@ -17,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function ()
 });
 
 
+/* Guests' names, clickable, go to the bio page */
 document.getElementById("name").addEventListener("click", function() 
 {
     let url = this.dataset.url;
@@ -159,13 +162,17 @@ function(){
 const circle = document.getElementById('circle');
 const content = document.getElementById('content');
 
-circle.addEventListener('mouseover', () => { 
-  console.log("Hovered over the circle!");
-});
+circle.addEventListener('mouseenter', () =>
+     { 
+  console.log("Hovered over the circle");
+}
+);
 
-circle.addEventListener('mouseleave', () => {
-  console.log("Mouse left the circle!");
-});
+circle.addEventListener('mouseleave', () => 
+    {
+  console.log("Mouse left the circle");
+}
+);
 
 
 
